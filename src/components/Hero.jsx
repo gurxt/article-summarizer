@@ -8,14 +8,14 @@ const Hero = () => {
             <button
                 type="button"
                 onClick={() => window.open('https://github.com/gurxt/sumai')}
-                className='black_btn'
+                className='red_gradient_btn'
             >
                 Github
             </button>
         </nav>
         <h1 className="head_text">
             Summarize Articles with <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-950">
+            <span className="red_gradient">
                 OpenAI GPT-4
             </span>
         </h1>

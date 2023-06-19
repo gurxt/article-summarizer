@@ -74,16 +74,16 @@
   @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
 }
 
-.black_btn {
-  @apply rounded-full border border-black bg-black py-1.5 px-5 text-sm text-white transition-all hover:bg-white hover:text-black;
+.red_gradient_btn {
+  @apply rounded-full border border-transparent bg-gradient-to-r from-red-400 to-red-900 py-1.5 px-5 text-xl text-white transition-all hover:bg-white hover:text-black;
 }
 
 .head_text {
   @apply mt-5 text-5xl font-extrabold leading-[1.15] text-black sm:text-6xl text-center;
 }
 
-.orange_gradient {
-  @apply bg-gradient-to-r from-amber-500 via-orange-600 to-yellow-500 bg-clip-text text-transparent;
+.red_gradient {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-red-400 to-red-950
 }
 
 .desc {
