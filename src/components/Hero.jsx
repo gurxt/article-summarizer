@@ -14,11 +14,15 @@ const Hero = () => {
             </button>
         </nav>
         <h1 className="head_text">
-            Summarize Articles with <br />
+            Summarize Articles with <br className="max-md:hidden" />
             <span className="red_gradient">
                 OpenAI GPT-4
             </span>
         </h1>
+        <h2 className="desc">
+            SumAI is an AI-based service that automatically generates succint, coherence summaries of lengthly articles,
+            improving readability, saving time, and providing essential information at a glance.
+        </h2>
     </header>
   )
 }
